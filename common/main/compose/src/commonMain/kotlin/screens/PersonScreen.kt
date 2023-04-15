@@ -19,4 +19,7 @@ fun PersonScreen() {
         Icon(Icons.Filled.Person, null)
         Text("Person")
     }
+    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.BottomCenter) {
+        Text("paddingValues check")
+    }
 }

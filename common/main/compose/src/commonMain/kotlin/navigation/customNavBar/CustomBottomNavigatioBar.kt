@@ -3,6 +3,7 @@
 package navigation.customNavBar
 
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
@@ -31,7 +32,7 @@ fun CustomBottomNavigationScreen() {
             }
         }
     ) {
-        TabNavigator(modifier = Modifier.fillMaxSize(), null, tabItem)
+        TabNavigator(modifier = Modifier.fillMaxSize().padding(it), null, tabItem)
     }
 
 
